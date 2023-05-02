@@ -1,0 +1,137 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+}
+
+html{height: 100%;}
+*{  margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: "Helvetica Bold", Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Helvetica", Arial, sans-serif;
+}
+  
+  .perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    float:right
+  }
+
+
+  header {
+    background-color:rosybrown;
+    padding: 5%;
+    color: #ffffff;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    height: auto;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rosybrown;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #A6A3C9;
+    color:rosybrown;
+  }
+  
+  main {
+    padding: 20px;
+    position: relative;
+  }
+  
+  section {
+    margin-bottom: 14%;
+  }
+  
+  h1, h2, h3 {
+    color: #000000;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  footer {
+    background-color:rosybrown;
+    position: relative;
+    padding: 10%;
+    color: #A6A3C9;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height:3 em;
+  }
+  
+  .box {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 15%;
+    margin-bottom: 2%;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color:rosybrown;
+    color: #ffffff;
+    padding: 10% 20%;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+header h1 i {
+  font-size: 48px;
+  color: #000;
+}
+
+nav ul li a i {
+  font-size: 2em; 
+  color: #333; 
+  margin-right: 5px;
+}
+
+section ul li i {
+  font-size: 2em;
+  color: #666;
+  margin-right: 3px;
+}
+
+section ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: flex; 
+}
+
+ul li {
+  margin-bottom: 10px; 
+}
